@@ -17,7 +17,7 @@ let currentmode = "dark";
 
 changetheme =() => {
     if (currentmode === "dark"){
-        currentmode = "light";
+        currentmode = "light"; 
         document.querySelector("body").style.backgroundColor = "white";
     }else{
         currentmode ="dark";
